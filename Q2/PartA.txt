@@ -1,0 +1,6 @@
+Q: What software patters are in use when using...
+
+A: Stream architecture uses the Decorator pattern as it gives a way of providing 
+different forms of behavior through a single base type. It means you can then attempt the base
+type based on your usecase. e.g. your base type of Stream could have MemoryStream, FileStream,
+GZIPStream etc. They have a good foundation underneath that is built upon easily.
